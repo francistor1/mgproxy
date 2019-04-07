@@ -1,0 +1,18 @@
+{
+  "name": "mgproxy",
+  "version": "0.0.1",
+  "description": "REST Proxy for FCAPS operations",
+  "main": "js/server.js",
+  "scripts": {
+    "start": "node js/server.js",
+    "test": "test"
+  },
+  "author": "Francisco Rodriguez",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "request": "^2.88.0",
+    "request-promise-native": "1.0.7"
+  },
+  "private": true
+}

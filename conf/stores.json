@@ -1,0 +1,16 @@
+{
+	"yaasServers":{
+		"endpoints": ["https://jsonplaceholder.typicode.com", "https://jsonplaceholder.typicode.com"],
+		"metrics": [
+			{"name": "RadiusAuthRequestReceived", "path":"/todos/1"},
+			{"name": "RadiusAcctRequestReceived", "path":"/todos/2"}
+		]
+	},
+	"yaasServers2":{
+		"endpoints": ["https://jsonplaceholder.typicode.com", "https://99.99.99.99"],
+		"metrics": [
+			{"name": "RadiusAuthRequestReceived2", "path":"/todos/1"},
+			{"name": "RadiusAcctRequestReceived2", "path":"/todos/2"}
+		]
+	}
+}
